@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+h1{
+  margin-top: 0;
+  font-size: 22px;
+}
+h2{
+  margin-top:0;
+  font-size:20px;
+}
+.square{
+  background: white;
+  border:1px solid #999;
+  font-size:24px;
+  float: left;
+  font-weight: bold;
+  height:34px;
+  margin-right:-1px;
+  margin-top:-1px;
+  padding:0;
+  text-align:center;
+  width:34px;
+}
+.board-row:after{
+  margin-left: 20px;
+  clear:both;
+  content:'';
+  display:table;
+}
+.status{
+  padding:20px;
+  margin-left: -35px;
+  font-weight: bold;
+  color:black;
+  font-size: 24px;
+}
